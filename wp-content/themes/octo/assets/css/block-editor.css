@@ -1,0 +1,271 @@
+/* Typography
+--------------------------------------------- */
+html, .wp-block {
+	color: #404040;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 1rem;
+	font-size: 16px;
+	line-height: 1.5;
+	font-style: normal;
+}
+
+.editor-post-title .editor-post-title__input {
+	font-size: 2.25rem;
+	padding-bottom: 0;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+.edit-post-visual-editor__post-title-wrapper .editor-post-title {
+	margin-bottom: 0;
+}
+
+.block-editor .editor-styles-wrapper h1,
+.block-editor .editor-styles-wrapper h2,
+.block-editor .editor-styles-wrapper h3,
+.block-editor .editor-styles-wrapper h4,
+.block-editor .editor-styles-wrapper h5,
+.block-editor .editor-styles-wrapper h6 {
+	margin: 1.5rem auto;
+	font-weight: normal;
+}
+
+.block-editor .editor-styles-wrapper h1 {
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+.block-editor .editor-styles-wrapper h2 {
+	font-size: 2.125rem;
+}
+
+.block-editor .editor-styles-wrapper h3 {
+	font-size: 1.75rem;
+}
+
+.block-editor .editor-styles-wrapper h4 {
+	font-size: 1.5rem;
+}
+
+.block-editor .editor-styles-wrapper h5 {
+	font-size: 1.25rem;
+}
+
+.block-editor .editor-styles-wrapper h6 {
+	font-size: 1.125rem;
+}
+
+.block-editor .editor-styles-wrapper p {
+	margin: 1.5rem auto;
+}
+
+.block-editor .editor-styles-wrapper dfn,
+.block-editor .editor-styles-wrapper cite,
+.block-editor .editor-styles-wrapper em,
+i {
+	font-style: italic;
+}
+
+.block-editor .editor-styles-wrapper blockquote {
+	border-left: 5px solid rgba(0,0,0,.05);
+	margin: 1.5rem auto;
+	padding: 20px;
+	font-size: 1.25rem;
+	font-style: italic;
+}
+
+.block-editor .editor-styles-wrapper blockquote p:last-child {
+	margin: 0 auto;
+}
+
+.block-editor .editor-styles-wrapper address {
+	margin: 1.5rem auto;
+}
+
+.block-editor .editor-styles-wrapper pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", courier, monospace;
+	line-height: 1.6;
+	margin-bottom: 1.6rem;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6rem;
+}
+
+.block-editor .editor-styles-wrapper code,
+.block-editor .editor-styles-wrapper kbd,
+.block-editor .editor-styles-wrapper tt,
+.block-editor .editor-styles-wrapper var {
+	font-family: monaco, consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+.block-editor .editor-styles-wrapper abbr,
+.block-editor .editor-styles-wrapper acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+.block-editor .editor-styles-wrapper mark,
+.block-editor .editor-styles-wrapper ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+.block-editor .editor-styles-wrapper big {
+	font-size: 125%;
+}
+
+/* Elements
+--------------------------------------------- */
+.block-editor .editor-styles-wrapper {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.block-editor .editor-styles-wrapper hr {
+	background-color: #eee;
+	border: 0;
+	height: 1px;
+	margin: 1.5rem auto;
+}
+
+.block-editor .editor-styles-wrapper ul,
+.block-editor .editor-styles-wrapper ol {
+	margin: 1.5rem auto ;
+	padding: 0 0 0 3rem;
+}
+
+.block-editor .editor-styles-wrapper ul {
+	list-style: square;
+}
+
+.block-editor .editor-styles-wrapper ol {
+	list-style: decimal;
+}
+
+.block-editor .editor-styles-wrapper li > ul,
+.block-editor .editor-styles-wrapper li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5rem;
+}
+
+.block-editor .editor-styles-wrapper dt {
+	font-weight: 700;
+}
+
+.block-editor .editor-styles-wrapper dd {
+	margin: 0 1.5rem 1.5rem;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+.block-editor .editor-styles-wrapper embed,
+.block-editor .editor-styles-wrapper iframe,
+.block-editor .editor-styles-wrapper object {
+	max-width: 100%;
+}
+
+.block-editor .editor-styles-wrapper img {
+	height: auto;
+	max-width: 100%;
+}
+
+.block-editor .editor-styles-wrapper figure {
+	margin: 1.5rem auto;
+}
+
+.block-editor .editor-styles-wrapper table,
+.block-editor .editor-styles-wrapper td,
+.block-editor .editor-styles-wrapper th {
+	border: 1px solid  #eee;
+}
+
+.block-editor .editor-styles-wrapper table {
+	margin: 1.5rem auto;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	word-wrap: break-word;
+}
+
+.block-editor .editor-styles-wrapper td,
+.block-editor .editor-styles-wrapper th {
+	padding: 5px;
+	border-width: 0 1px 1px 0;
+}
+
+/* Elements
+--------------------------------------------- */
+.block-editor .editor-styles-wrapper a:not(.wp-block-button__link) {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+/* WP-Blocks
+--------------------------------------------- */
+.block-editor .block-editor-block-list__layout {
+	margin: 0 auto;
+}
+
+.block-editor .block-editor-block-list__block {
+	margin: 1.5rem auto;
+}
+
+/* WP-Block General */
+.block-editor [class*="wp-block-"] > :first-child,
+.block-editor [class*="wp-block-"] > [class*="wp-block-"] > :first-child {
+	margin-top: 0;
+}
+
+.block-editor [class*="wp-block-"] > :last-child,
+.block-editor [class*="wp-block-"] > [class*="wp-block-"] > :last-child {
+	margin-bottom: 0;
+}
+
+/* WP-Block Column */
+.block-editor .wp-block-column > *:first-child {
+	margin-top: 0;
+}
+
+.block-editor .wp-block-column > *:last-child{
+	margin-bottom: 0;
+}
+
+/* WP-Block Buttons */
+.block-editor .wp-block-buttons .wp-block-button {
+	margin: 0 0.5rem 0.5rem 0;
+}
+
+/* WP-Block Cover and Group */
+.block-editor .wp-block-group.has-background,
+.block-editor .wp-block-cover {
+	padding: 3rem 0;
+	margin: 0 auto;
+}
+
+.block-editor .wp-block-cover {
+	margin: 0 auto;
+}
+
+.block-editor .wp-block-group.has-background {
+	overflow: hidden
+}
+
+.block-editor [class*="wp-block-"].has-background [class*="__inner-container"] {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* WP-Block Gallery */
+.blocks-gallery-grid .blocks-gallery-image figure,
+.blocks-gallery-grid .blocks-gallery-item figure,
+.wp-block-gallery .blocks-gallery-image figure,
+.wp-block-gallery .blocks-gallery-item figure {
+	margin: 0;
+}
+
+/* Alignment */
+.block-editor .editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .wp-block[data-align="full"] {
+	margin-left: -20px;
+	margin-right: -20px;
+}

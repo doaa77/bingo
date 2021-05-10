@@ -1,0 +1,131 @@
+.customize-control-octo-range .customize-control-title,
+.customize-control-octo-range .customize-control-description {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.customize-control input.octo-range-unit {
+	width: 30px;
+	font-size: 12px;
+	padding: 0 5px;
+}
+
+.customize-control select.octo-range-unit {
+	width: 50px;
+	font-size: 12px;
+	padding: 0 5px;
+}
+
+.customize-control-octo-range .octo-controls-wrapper, .customize-control-octo-range .octo-responsive-controls-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.customize-control input[type=number].octo-range-number  {
+	display: block;
+	width: 55px;
+	font-size: 12px;
+	padding: 0 5px;
+	margin-right: 5px;
+}
+
+.customize-control-octo-range input[type=range] {
+	-webkit-appearance: none;
+	margin-right: 10px;
+	background-color: inherit;
+	flex: 1 1 auto;
+}
+
+.customize-control-octo-range input[type=range]:focus {
+	outline: none;
+}
+
+.customize-control-octo-range input[type=range]::-webkit-slider-runnable-track {
+	height: 3px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: #DDDDDD;
+}
+
+.customize-control-octo-range input[type=range]::-webkit-slider-thumb {
+	height: 15px;
+	width: 15px;
+	border-radius: 15px;
+	border: none;
+	background: #007CBA;
+	cursor: pointer;
+	-webkit-appearance: none;
+	margin-top: -6px;
+}
+
+.customize-control-octo-range input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #DDDDDD;
+}
+
+.customize-control-octo-range input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 3px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: #DDDDDD;
+}
+
+.customize-control-octo-range input[type=range]::-moz-range-thumb {
+	height: 15px;
+	width: 15px;
+	border-radius: 15px;
+	border: none;
+	background: #007CBA;
+	cursor: pointer;
+}
+
+.customize-control-octo-range input[type=range]::-ms-track {
+	height: 3px;
+	cursor: pointer;
+	animate: 0.2s;
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+
+.customize-control-octo-range input[type=range]::-ms-fill-lower {
+	background: #DDDDDD;
+}
+
+.customize-control-octo-range input[type=range]::-ms-fill-upper {
+	background: #DDDDDD;
+}
+
+.customize-control-octo-range input[type=range]::-ms-thumb {
+	height: 15px;
+	width: 15px;
+	border-radius: 15px;
+	border: none;
+	background: #007CBA;
+	cursor: pointer;
+}
+
+.customize-control-octo-range input[type=range]:focus::-ms-fill-lower {
+	background: #DDDDDD;
+}
+
+.customize-control-octo-range input[type=range]:focus::-ms-fill-upper {
+	background: #DDDDDD;
+}
+
+.octo-range-responsive-reset {
+	color: rgb(126, 137, 147);
+	cursor: pointer;
+	border: none;
+	padding: 0 3px;
+}
+
+.octo-range-responsive-reset .dashicons-image-rotate {
+	font-size: 15px;
+}
+
+.octo-range-responsive-reset:hover {
+	color: #0073aa;
+}

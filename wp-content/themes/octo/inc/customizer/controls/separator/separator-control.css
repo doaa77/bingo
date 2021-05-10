@@ -1,0 +1,8 @@
+.customize-control-octo-separator {
+	margin: 8px 0 20px 0;
+}
+
+.customize-control-octo-separator hr {
+	border-top: 0;
+	border-bottom: 1px solid #dddddd;
+}

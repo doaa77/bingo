@@ -1,0 +1,27 @@
+/*!
+Theme Name: Octo
+Author: Michael Schulmeister
+Author URI: https://michlmachtweb.de
+Description: Octo is a modern and flexible WordPress theme. You can build any kind of websites with this theme, such as blogs, business websites or personal portfolios. This theme focuses on speed and usability. It is less than 50kb big on the frontend and is fully responsive. If you want to use a page builder for creating your site, then this is the right theme for you. Octo works very well with all major page builders, such as Elementor or Beaver Builder. It comes with plenty of options in the WordPress Customizer and is also 100% compatible with the Gutenberg block editor. With all its features, Octo is a very flexible and customizable theme. You can choose between different header layouts, set up your navigation to your likings or enable the sidebar and a breadcrumb trail, just to give you an example of all the posibilities, you will have with Octo. If you are looking for a fast and easy to use theme, then look no further. You just found it!
+Version: 1.0.2
+Tested up to: 5.7
+Requires PHP: 7.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: octo
+Tags: custom-menu, custom-logo, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, post-formats, theme-options, threaded-comments, translation-ready, blog
+
+Octo WordPress Theme, Copyright 2021 https://octowp.com.
+This theme is licensed under the terms of the GNU GPL.
+
+Octo is based on Underscores https://underscores.me/, (C) 2012-2021 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+
+Octo breadcrumb is based on Breadcrumb Trail by Justin Tadlock. (https://github.com/justintadlock/breadcrumb-trail)
+Breadcrumb Trail is distributed under the terms of the GNU GPL v2 or later.
+
+Actual theme stylesheet can be found in the /assets/css/ folder.
+*/

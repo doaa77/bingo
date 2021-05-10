@@ -1,0 +1,22 @@
+#octo-settings-metabox .inside {
+	margin-top: 14px;
+}
+
+.octo-metabox-section:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.octo-metabox-section-title {
+	display: block;
+	padding-bottom: 4px;
+	font-weight: 500;
+}
+
+.octo-metabox-section select {
+	width: 84%;
+	border-radius: 2px;
+}
+
+.octo-metabox-section-wrapper:not(:last-child) {
+	margin-bottom: 2px;
+}

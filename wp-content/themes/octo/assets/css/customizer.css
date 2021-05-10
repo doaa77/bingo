@@ -1,0 +1,146 @@
+.customize-control-content {
+	width: 100%;
+}
+
+/* Forms
+--------------------------------------------- */
+.customize-control input[type=number],
+.customize-control input[type=text] {
+	width: 100% important;
+	min-height: 30px !important;
+	padding: 0 5px !important;
+	line-height: 1 !important;
+}
+
+.octo-controls-wrapper input:disabled {
+	background-color: #fff;
+	color: #404040;
+	border: 1px solid #7e8993;
+	min-height: 30px !important;
+	border-radius: 3px !important;
+}
+
+/* Responsive Buttons
+--------------------------------------------- */
+.octo-responsive-buttons-wrapper {
+	display: inline-block;
+}
+
+ul.octo-responsive-buttons li {
+	display: inline-block;
+}
+
+ul.octo-responsive-buttons li button,
+.octo-reset-button-wrapper button {
+	border: none;
+	color: rgb(126, 137, 147);
+	cursor: pointer;
+	padding: 0 3px;
+	margin-top: -2px;
+	border-bottom: 2px solid transparent;
+}
+
+ul.octo-responsive-buttons li button span,
+.octo-reset-button-wrapper button span {
+	font-size: 1rem;
+}
+
+ul.octo-responsive-buttons li.active button {
+	color: #444;
+	border-bottom-color: #444;
+	padding: 0 3px;
+}
+
+ul.octo-responsive-buttons li button:hover,
+.octo-reset-button-wrapper button:hover{
+	color: #0073aa;
+}
+
+ul.octo-responsive-buttons li button:focus,
+ul.octo-responsive-buttons li button:active,
+.octo-reset-button-wrapper button:focus,
+.octo-reset-button-wrapper button:active {
+	outline: none;
+}
+
+.octo-controls-wrapper.responsive {
+	display: none;
+}
+
+.octo-controls-wrapper.responsive.active {
+	display: flex;
+}
+
+.octo-buttons-wrapper {
+	display: flex;
+	float: right;
+}
+
+/* Radio control
+--------------------------------------------- */
+.customize-control-radio .customize-control-title {
+	margin-bottom: 4px;
+}
+
+.customize-control-radio input {
+	display: none;
+}
+
+.customize-control-radio label {
+	border-radius: 3px;
+}
+
+.customize-control-radio input:checked + label {
+	background: #007cba;
+	color: #fff;
+}
+
+.customize-control-radio .customize-inside-control-row {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.customize-control-radio .customize-inside-control-row label {
+	background: #fff;
+	padding: 10px;
+	display: block;
+}
+
+/* Subtitle
+--------------------------------------------- */
+.customize-control-subtitle {
+	margin: 0 0 6px 0;
+	line-height: 1.75;
+}
+
+/* Description
+--------------------------------------------- */
+.customize-control-description {
+	font-style: normal;
+}
+
+/* Elements
+--------------------------------------------- */
+.wp-core-ui select,
+.wp-color-result-text,
+.wp-customizer .wp-picker-container .wp-color-result.button,
+.customize-control input[type=email],
+.customize-control input[type=number],
+.customize-control input[type=password],
+.customize-control input[type=search],
+.customize-control input[type=tel],
+.customize-control input[type=text],
+.customize-control input[type=url],
+.customize-control input:disabled,
+.wp-core-ui .button,
+.wp-core-ui .button-primary,
+.wp-core-ui .button-secondary{
+	border-radius: 3px;
+}
+
+/* Panel separation
+--------------------------------------------- */
+#accordion-panel-octo_panel_typography {
+	margin-bottom: 15px;
+}

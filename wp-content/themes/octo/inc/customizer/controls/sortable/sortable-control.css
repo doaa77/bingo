@@ -1,0 +1,20 @@
+.customize-control-octo-sortable .sortable-item {
+	background: #fff;
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+}
+
+.customize-control-octo-sortable .sortable-item.invisible {
+	background: #fafafa;
+	border: 1px dotted;
+	color: #aaa;
+}
+
+.customize-control-octo-sortable .sortable-item .dashicons-menu {
+	margin-left: auto;
+}
+
+.customize-control-octo-sortable .sortable-item .dashicons-visibility {
+	margin-right: 10px;
+}
